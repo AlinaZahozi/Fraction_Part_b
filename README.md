@@ -12,7 +12,9 @@ Write a class named Fraction that represents a fraction of two integers. Overloa
 * The ++ and -- operator that adds (or substracts) 1 to the fraction. implement both pre and post fix.
 * The << operator to print a fraction to an output stream in the format “numerator/denominator”.
 * The >> operator to read a fraction from an input stream by taking two integers as input. 
-* All operators should work on both sides on fractions and floats type variables. on a float var you need use up to 3 digits beyond the desimal point for acuracy.  
+* All operators should work on both sides on fractions and floats type variables. on a float var you need use up to 3 digits beyond the desimal point for acuracy. 
+    
+Note: As defined in the course regulations, I state that I used the help of a private teacher in order to solve the assignment.
 
 דוגמאות לפעולת המחלקה ניתן למצוא ב-[Demo.cpp](Demo.cpp).
 
