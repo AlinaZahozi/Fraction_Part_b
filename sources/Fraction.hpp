@@ -22,7 +22,6 @@ class Fraction {
         // Getters:
         int getNumerator();
         int getDenominator();
-        Fraction getFraction();
         
         // Setters:
         void setNumerator(int anumerator);
@@ -30,8 +29,6 @@ class Fraction {
 
         // To string:
         string toString() const;
-
-       // int gcd(int, int);
 
         // Return fraction in reduced form:
         void reduce();
@@ -60,7 +57,9 @@ class Fraction {
         friend bool operator==(const Fraction& , const Fraction&);
         friend bool operator==(float , const Fraction&);
         friend bool operator==(const Fraction& , float);
-        
+
+        // The != operator to compare two fractions for no-equality and return true or false:
+        friend bool operator!=(const Fraction &, const Fraction &);
 
         // The > operators to compare two fractions and return true or false:
         friend bool operator>(const Fraction& , const Fraction&);
